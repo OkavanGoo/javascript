@@ -13,7 +13,7 @@ public class MouseCaptureDemo extends JFrame implements MouseMotionListener
     MouseCaptureDemo() 
     {
         setSize(500, 500);
-        setTitle("Frame displaying Coordinates of Mouse Motion");
+        setTitle("Mouse Motion");
  
         mouseHoverStatus = new JLabel("No Mouse Hover Detected.", JLabel.CENTER);
         add(mouseHoverStatus);
